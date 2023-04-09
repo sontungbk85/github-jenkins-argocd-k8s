@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+        "github-jenkins-argocd-k8s": {
+            "isDefault": true,
+            "runWith": "jenkins-master",
+            "name": "github-jenkins-argocd-k8s"
+    }
+   },
+   "jenkins-runner.hostConfigs": {
+    "jenkins-master": {
+        "url": "http://35.239.119.243:8080/",
+        "user": "sontungbk85",
+        "password": "tungts85",
+        "useCrumbIssuer": true,
+    }
+   }
+}
