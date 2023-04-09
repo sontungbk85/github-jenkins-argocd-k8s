@@ -3,10 +3,8 @@ kind: Service
 metadata:
   name: web-python
 spec:
-  type: NodePort
-  selector:
+    selector:
     app: flask-app
   ports:
   - port: 80
-    targetPort: 5001
-    nodePort: 32001
+    targetPort: 5001    
