@@ -26,7 +26,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: 34.29.140.179
+  - host: 34.29.140.179.xip.io
     http:
       paths:
       - path: /foo
