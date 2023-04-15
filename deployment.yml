@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: sontungbk85/github-jenkins-argocd-k8s:10
+        image: sontungbk85/github-jenkins-argocd-k8s:11
         ports:
         - containerPort: 5001
 ---
